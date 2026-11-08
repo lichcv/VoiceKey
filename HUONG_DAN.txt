@@ -1,0 +1,8 @@
+BUOC 1. Giai nen file zip nay tren may tinh.
+BUOC 2. Vao github.com, dang ky tai khoan mien phi, bam New repository, dat ten VoiceKey, de Public hoac Private deu duoc, bam Create.
+BUOC 3. Trong repository: Add file > Upload files, keo TOAN BO noi dung thu muc VoiceKey (app, .github, build.gradle.kts, settings.gradle.kts...) vao, bam Commit changes.
+   Neu thu muc .github khong len: Add file > Create new file, go ten  .github/workflows/build.yml  roi dan noi dung file build.yml vao.
+BUOC 4. Mo tab Actions, cho "Build APK" chay xong (dau tich xanh, 5-10 phut). Neu chua chay: chon Build APK > Run workflow.
+BUOC 5. Bam vao lan chay xong, cuon xuong muc Artifacts, tai VoiceKey-apk (file zip chua app-debug.apk).
+BUOC 6. Chep app-debug.apk vao dien thoai, cai dat (cho phep cai tu nguon khong ro).
+BUOC 7. Mo app "Giong Noi": nhap API key MOI cua Groq > Luu > Cap quyen micro > Mo cai dat ban phim (bat Ban phim Giong Noi) > Chon ban phim.
